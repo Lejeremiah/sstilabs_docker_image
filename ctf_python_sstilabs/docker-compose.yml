@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  service:
+    build: .
+    image: jerem1ah/python_sstilabs
+    ports:
+      - 7777:5000
+    environment:
+      - FLAG=flag{flag_test}
